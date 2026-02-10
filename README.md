@@ -38,10 +38,10 @@ A Python pipeline that:
 ```bash
 pip install pandas openpyxl
 
-Run the script:
+2) Run the script:
 python src/standardize_buildings.py
 -----------------------------------------------------------------------------------------------------
-## 🇬🇧 Français
+### 🇬🇧 Français
 # Data Cleaning & Standardization Pipeline (Excel + Python)
 
 ## Aperçu
