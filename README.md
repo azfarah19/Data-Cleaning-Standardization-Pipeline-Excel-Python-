@@ -43,6 +43,8 @@ python src/standardize_buildings.py
 
 2) Run the script:
 python src/standardize_buildings.py
+
+```
 -----------------------------------------------------------------------------------------------------
 🇫🇷 Français
 # Data Cleaning & Standardization Pipeline (Excel + Python)
