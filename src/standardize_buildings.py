@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import os
 
-# Define input and output Excel paths (portfolio version)
+# Define input and output 
 input_file = "sample_data/sample_input.xlsx"
 output_file = "outputs/standardized_output.xlsx"
 
@@ -45,7 +45,7 @@ adjusted = df.apply(lambda row: adjust_building(
 
 df[['PM Building Adjusted', 'PF Building Adjusted']] = pd.DataFrame(adjusted.tolist(), index=df.index)
 
-# Save to OUTPUT file (instead of overwriting input)
+# Save to OUTPUT file 
 df.to_excel(output_file, index=False)
 
 print("Saved output to:", output_file)
